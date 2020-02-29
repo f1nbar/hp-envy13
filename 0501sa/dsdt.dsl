@@ -79,7 +79,7 @@ Firmware Error (ACPI): Could not resolve symbol [^GFX0.IUER], AE_NOT_FOUND (2019
  *     Compiler ID      "ACPI"
  *     Compiler Version 0x00040000 (262144)
  */
-DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000000)
+DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000001)
 {
     External (_GPE.AL6F, MethodObj)    // 0 Arguments
     External (_GPE.HLVT, MethodObj)    // 0 Arguments
@@ -41299,7 +41299,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000000)
 
     Scope (\)
     {
-        Name (BCLP, Package (0x67)
+        Name (BCLP, Buffer (0x67)
         {
             0x64, 
             0x32, 
