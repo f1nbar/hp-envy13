@@ -15084,10 +15084,12 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             CreateBitField (SBFI, \_SB.PCI0.I2C1.TPL1._Y25._LL, ILVL)  // _LL_: Low Level
             Method (_INI, 0, NotSerialized)  // _INI: Initialize
             {
+                /*
                 If ((OSYS < 0x07DC))
                 {
                     SRXO (GPLI, One)
                 }
+                */
 
                 INT1 = GNUM (GPLI)
                 INT2 = INUM (GPLI)
@@ -15237,11 +15239,6 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
 
             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
             {
-                If ((OSYS < 0x07DC))
-                {
-                    Return (SBFI) /* \_SB_.PCI0.I2C1.TPL1.SBFI */
-                }
-
                 If ((SDM1 == Zero))
                 {
                     Return (ConcatenateResTemplate (SBFB, SBFG))
