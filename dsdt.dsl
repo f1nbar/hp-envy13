@@ -1,43 +1,72 @@
-/*
-Firmware Error (ACPI): Failure looking up [^GFX0.CLID], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI0], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI1], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI2], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI3], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI4], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI5], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI6], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI7], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI8], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGI9], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGIA], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGIB], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGIC], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGID], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGIE], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.MGIF], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.CCI0], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.CCI1], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.CCI2], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.CCI3], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.STS0], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.STS1], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.STS2], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.STS3], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.STS4], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.STS5], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.STS6], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^^UBTC.STS7], AE_NOT_FOUND (20180105/dswload-390)
-Firmware Error (ACPI): Failure looking up [^GFX0.IUER], AE_NOT_FOUND (20180105/dswload-390)
+/*Firmware Error (ACPI): Could not resolve symbol [^GFX0.CLID], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI0], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI1], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI2], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI3], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI4], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI5], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI6], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI7], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI8], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI9], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGIA], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGIB], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGIC], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGID], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGIE], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGIF], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.CCI0], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.CCI1], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.CCI2], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.CCI3], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS0], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS1], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS2], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS3], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS4], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS5], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS6], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS7], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^GFX0.IUER], AE_NOT_FOUND (20190509/dswload-388)
+Firmware Error (ACPI): Could not resolve symbol [^GFX0.CLID], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI0], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI1], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI2], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI3], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI4], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI5], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI6], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI7], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI8], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGI9], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGIA], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGIB], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGIC], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGID], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGIE], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.MGIF], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.CCI0], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.CCI1], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.CCI2], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.CCI3], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS0], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS1], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS2], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS3], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS4], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS5], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS6], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^^UBTC.STS7], AE_NOT_FOUND (20190509/dswload2-369)
+Firmware Error (ACPI): Could not resolve symbol [^GFX0.IUER], AE_NOT_FOUND (20190509/dswload2-369)
 */
 /*
  * Intel ACPI Component Architecture
- * AML/ASL+ Disassembler version 20180105 (64-bit version)
- * Copyright (c) 2000 - 2018 Intel Corporation
+ * AML/ASL+ Disassembler version 20190509 (64-bit version)
+ * Copyright (c) 2000 - 2019 Intel Corporation
  * 
  * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of dsdt.dat, Sat Dec  1 17:35:48 2018
+ * Disassembly of dsdt.dat, Sat Feb 29 22:45:40 2020
  *
  * Original Table Header:
  *     Signature        "DSDT"
@@ -4641,7 +4670,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
 
     Scope (_GPE)
     {
-        Method (_L6D, 0, Serialized)  // _Lxx: Level-Triggered GPE
+        Method (_L6D, 0, Serialized)  // _Lxx: Level-Triggered GPE, xx=0x00-0xFF
         {
             \_SB.PCI0.XHC.GPEH ()
             \_SB.PCI0.HDAS.GPEH ()
@@ -15055,12 +15084,6 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             CreateBitField (SBFI, \_SB.PCI0.I2C1.TPL1._Y25._LL, ILVL)  // _LL_: Low Level
             Method (_INI, 0, NotSerialized)  // _INI: Initialize
             {
-                /* The following block is supposed to run in Windows versions strictly older than "Windows 2012" 
-                 * However, we are declaring ourselves Windows 2009 to avoid crashing (via acpi_osi=... kernel param)
-                 * but we don't want to run this because it appears to interfere with the i2c-hid driver
-                 * So, we'll just remove this, and behave as a newer windows wrt this bit
-                 */
-
                 /*
                 If ((OSYS < 0x07DC))
                 {
@@ -15193,8 +15216,6 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             Method (_STA, 0, NotSerialized)  // _STA: Status
             {
                 Return (0x0F)
-                /* Not clear why this fails with a EA_NOT_FOUND. Harcoded to return an OK status */
-
                 /*
                 If ((^^^LPCB.EC0.PCBV == 0x02))
                 {
@@ -15218,16 +15239,6 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
 
             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
             {
-                /* The following block is supposed to run in Windows versions strictly older than "Windows 2012" 
-                 * However, we are declaring ourselves Windows 2009 to avoid crashing (via acpi_osi=... kernel param)
-                 * but we don't want to run this because it appears to interfere with the i2c-hid driver
-                 * So, we'll just remove this, and behave as a newer windows wrt this bit
-                 */
-                // If ((OSYS < 0x07DC))
-                // {
-                //     Return (SBFI) /* \_SB_.PCI0.I2C1.TPL1.SBFI */
-                // }
-
                 If ((SDM1 == Zero))
                 {
                     Return (ConcatenateResTemplate (SBFB, SBFG))
@@ -20316,7 +20327,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
 
     Scope (_GPE)
     {
-        Method (_L69, 0, Serialized)  // _Lxx: Level-Triggered GPE
+        Method (_L69, 0, Serialized)  // _Lxx: Level-Triggered GPE, xx=0x00-0xFF
         {
             \_SB.PCI0.RP01.HPME ()
             \_SB.PCI0.RP02.HPME ()
@@ -20362,7 +20373,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             }
         }
 
-        Method (_L61, 0, NotSerialized)  // _Lxx: Level-Triggered GPE
+        Method (_L61, 0, NotSerialized)  // _Lxx: Level-Triggered GPE, xx=0x00-0xFF
         {
             L01C += One
             P8XH (Zero, One)
@@ -20856,7 +20867,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             }
         }
 
-        Method (_L62, 0, NotSerialized)  // _Lxx: Level-Triggered GPE
+        Method (_L62, 0, NotSerialized)  // _Lxx: Level-Triggered GPE, xx=0x00-0xFF
         {
             GPEC = Zero
             If (CondRefOf (\_PR.DTSE))
@@ -20883,7 +20894,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             }
         }
 
-        Method (_L66, 0, NotSerialized)  // _Lxx: Level-Triggered GPE
+        Method (_L66, 0, NotSerialized)  // _Lxx: Level-Triggered GPE, xx=0x00-0xFF
         {
             If ((\_SB.PCI0.GFX0.GSSE && !GSMI))
             {
@@ -20892,7 +20903,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
         }
 
         Name (PRES, One)
-        Method (_L6F, 0, NotSerialized)  // _Lxx: Level-Triggered GPE
+        Method (_L6F, 0, NotSerialized)  // _Lxx: Level-Triggered GPE, xx=0x00-0xFF
         {
             If ((RTD3 == One))
             {
@@ -20948,7 +20959,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
         Name (_UID, "SADDLESTRING")  // _UID: Unique ID
         If ((S0ID == Zero))
         {
-            Method (_EJ0, 1, NotSerialized)  // _EJx: Eject Device
+            Method (_EJ0, 1, NotSerialized)  // _EJx: Eject Device, x=0-9
             {
                 P8XH (Zero, 0xED)
                 Return (Zero)
@@ -40326,7 +40337,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             WBDX,   8
         }
 
-        Method (_Q29, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q29, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x29
             If ((WIID == 0x05))
@@ -40347,7 +40358,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             }
         }
 
-        Method (_Q10, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q10, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x10
             If (WLSW)
@@ -40435,7 +40446,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             }
         }
 
-        Method (_Q1C, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q1C, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x1C
             BCEN = Zero
@@ -40468,7 +40479,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             }
         }
 
-        Method (_Q1D, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q1D, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x1D
             BCEN = Zero
@@ -40501,13 +40512,13 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             }
         }
 
-        Method (_Q2A, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q2A, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x2A
             TRPS (0x86, 0x80)
         }
 
-        Method (_Q2B, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q2B, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x2B
             \_PR.CPPC = PSLV /* \_SB_.PCI0.LPCB.EC0_.PSLV */
@@ -40515,7 +40526,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             PACK = \_PR.PR00._PPC ()
         }
 
-        Method (_Q36, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q36, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x36
             If (ECOK)
@@ -40531,7 +40542,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             NTMR ()
         }
 
-        Method (_Q40, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q40, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x40
             Notify (BAT0, 0x81) // Information Change
@@ -40541,7 +40552,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             }
         }
 
-        Method (_Q41, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q41, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x41
             Notify (BAT0, 0x81) // Information Change
@@ -40551,19 +40562,19 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             }
         }
 
-        Method (_Q48, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q48, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x48
             Notify (BAT0, 0x80) // Status Change
         }
 
-        Method (_Q4C, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q4C, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x4C
             Notify (BAT0, 0x80) // Status Change
         }
 
-        Method (_Q50, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q50, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x50
             Notify (ADP1, 0x80) // Status Change
@@ -40589,7 +40600,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             }
         }
 
-        Method (_Q51, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q51, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x51
             Notify (ADP1, 0x80) // Status Change
@@ -40614,7 +40625,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             }
         }
 
-        Method (_Q52, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q52, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x52
             LIDS = KLID /* \_SB_.PCI0.LPCB.EC0_.KLID */
@@ -40627,7 +40638,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             SGOV (Zero, One)
         }
 
-        Method (_Q53, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q53, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x53
             LIDS = KLID /* \_SB_.PCI0.LPCB.EC0_.KLID */
@@ -40640,21 +40651,21 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             SGOV (Zero, Zero)
         }
 
-        Method (_Q64, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q64, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x64
             ADBG ("_Q64")
             Notify (^^^RP01.PXSX, 0xD1) // Hardware-Specific
         }
 
-        Method (_Q67, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q67, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x67
             ADBG ("_Q67")
             Notify (^^^RP01.PXSX, 0xD5) // Hardware-Specific
         }
 
-        Method (_Q68, 0, Serialized)  // _Qxx: EC Query
+        Method (_Q68, 0, Serialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x68
             ADBG ("_Q68")
@@ -40686,28 +40697,28 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             WBDX = RPDX /* \_SB_.PCI0.LPCB.EC0_.RPDX */
         }
 
-        Method (_Q69, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q69, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x69
             ADBG ("_Q69")
             Notify (^^^RP01.PXSX, 0xD3) // Hardware-Specific
         }
 
-        Method (_Q72, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q72, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x72
             ADBG ("_Q72")
             ^^^^WMID.GWET (0x14, 0xFE)
         }
 
-        Method (_Q73, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q73, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x73
             ADBG ("_Q73")
             ^^^^WMID.GWET (0x14, 0xFF)
         }
 
-        Method (_Q79, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q79, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             P80H = 0x79
             ^^^^UBTC.UCEV ()
@@ -41271,7 +41282,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             Release (MSM3)
         }
 
-        Method (_QF1, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_QF1, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             If ((DTYP == 0x04))
             {
@@ -41279,7 +41290,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
             }
         }
 
-        Method (_Q9A, 0, NotSerialized)  // _Qxx: EC Query
+        Method (_Q9A, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
         {
             Notify (B0D4, 0x87) // Device-Specific
         }
@@ -41660,7 +41671,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-MPC", 0x00000002)
                 /* 0058 */  0xB2, 0xF0, 0x00, 0xA0, 0xC9, 0x06, 0x29, 0x10,  // ......).
                 /* 0060 */  0x44, 0x44, 0x01, 0x00                           // DD..
             })
-            Method (_WED, 1, NotSerialized)  // _Wxx: Wake Event
+            Method (_WED, 1, NotSerialized)  // _Wxx: Wake Event, xx=0x00-0xFF
             {
                 P80H = Arg0
                 If ((Arg0 == 0xB0))
