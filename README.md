@@ -1,67 +1,9 @@
-My fork of dmoisset's Repo, for HP Envy 13 ah0501-na
-===============================
-Original README content below.
-===============================
+GNU/Linux Touchscreen Support for HP ENVY 13 ah0501-na
+=====================================================
+My fork of dmoisset's Repo, modified for HP Envy 13 ah0501-na.
 
+Below are the original instructuins for enabling touchscreen support. I have replaced the DSDT.aml file with my verison for the ah0501.
 
-HP Envy 13 ah0003-na with Linux
-===============================
-
-I bought an HP laptop (envy 13 ah0003-na) and had some troubles making it work
-with Linux, but I managed to get it running. I'm sharing here what I did.
-
-DISCLAIMER: This worked for me, and I can not guarantee it will work for you.
-Use at your own risk.
-
-Installing Linux without crashing
-=================================
-
-I tried to install Ubuntu 18.04 LTS and the installer entered a boot loop (from
-a quick try, the Ubuntu 18.10 installer had solved that, but I wanted to install
-an LTS version and 18.04 is the most recent at the time of writing this). It's
-possible to sidestep that by editing the GRUB command line and adding the
-following kernel parameter (See 
-https://askubuntu.com/questions/19486/how-do-i-add-a-kernel-boot-parameter for
-details):
-
-```
-acpi_osi=""
-```
-
-(I added this after the `quiet splash` kernel options)
-
-
-Being able to boot without crashing
-===================================
-
-Once you complete your install, I found the same boot crash (because the
-installed system requires the same change in boot parameters). To be able to
-boot each time I still needed to take the same steps that I did with the
-installer (editing the grub kernel command line). To make the
-change permanent, I added the parameters to `/etc/default/grub`. After playing
-a bit I found that the best setup is a slightly different kernel command line:
-
-```
-$ sudo nano /etc/default/grub
-```
-
-There I edited the line that looks like
-```
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
-```
-
-And changed it to
-```
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_osi=! acpi_osi=\"Windows 2009\""
-```
-
-After that I saved, reinstalled with
-
-```
-$ sudo update-grub
-```
-
-And then I was able to reboot all time
 
 Touchscreen support
 ===================
