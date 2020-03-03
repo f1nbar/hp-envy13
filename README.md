@@ -1,4 +1,4 @@
-GNU/Linux Touchscreen Suppor for HP ENVY 13 ah0501-na
+GNU/Linux Touchscreen Support for HP ENVY 13 ah0501-na
 =====================================================
 My fork of dmoisset's Repo, modified for HP Envy 13 ah0501-na.
 
