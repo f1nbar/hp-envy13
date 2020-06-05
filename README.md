@@ -2,7 +2,7 @@ GNU/Linux Touchscreen Support for HP ENVY 13 ah0501-na
 =====================================================
 My fork of dmoisset's Repo, modified for HP Envy 13 ah0501-na.
 
-Below are the original instructuins for enabling touchscreen support. I have replaced the DSDT.aml file with my verison for the ah0501.
+Below are the original instructions for enabling touchscreen support. I have replaced the DSDT.aml file with my verison for the ah0501.
 
 
 Touchscreen support
